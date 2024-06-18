@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="exercicio1.php" method="get">
+        <h1>ESCOLHA A OPÇÃO DESEJADA</h1>
+        <div>
+            <input type="radio" name="selecao" id="selecao" value="1"> Somar
+            <input type="radio" name="selecao" id="selecao" value="2"> Subtrair
+            <input type="radio" name="selecao" id="selecao" value="3"> Dividir
+            <input type="radio" name="selecao" id="selecao" value="4"> Multiplicar
+        </div>
+        <div>
+            <label for="numero1">Numero 1:</label>
+            <input type="number" step="0.01" name="numero1" id="numero1" required>
+
+            <label for="numero2">Numero 2:</label>
+            <input type="number" step="0.01" name="numero2" id="numero2" required>
+        </div>
+        <div>
+            <button type="submit"> Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
