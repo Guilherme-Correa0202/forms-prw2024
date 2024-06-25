@@ -12,8 +12,8 @@
         $hora = $_GET['hora'];
 
         if($hora<"12:00"){echo "BOM DIA, $nome";}
-        if($hora<"18:00"){echo "BOA TARDE, $nome";}
-        if($hora>"18:00"){echo "BOA NOITE, $nome";}
+        elseif($hora<"18:00"){echo "BOA TARDE, $nome";}
+            elseif($hora>"18:00"){echo "BOA NOITE, $nome";}
     ?>
 </body>
 </html>
